@@ -1,0 +1,26 @@
+.sec-1 {
+  padding-left: 11px;
+}
+.sec-1 .sec-1__title {
+  display: none;
+}
+@media (min-width: 1200px) {
+  .sec-1 {
+    padding-top: 35px;
+    background: url(../../images/sec-1-pattern.png);
+  }
+  .sec-1 .sec-1__title {
+    display: block;
+    font-family: 'PtSans';
+    font-size: 2.3em;
+    color: white;
+    text-transform: uppercase;
+  }
+  .sec-1 .sec-1__blocks {
+    display: table;
+  }
+  .sec-1 .sec-1__item {
+    display: table-cell;
+    vertical-align: top;
+  }
+}

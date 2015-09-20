@@ -1,0 +1,37 @@
+.clear-fix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.limited-width-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.player {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.player .player__text {
+  display: none;
+}
+@media (min-width: 1200px) {
+  .player {
+    display: table;
+  }
+  .player .player__text {
+    display: table-cell;
+    width: 50%;
+    vertical-align: middle;
+  }
+  .player .player__video {
+    vertical-align: middle;
+    display: table-cell;
+    width: 50%;
+  }
+}

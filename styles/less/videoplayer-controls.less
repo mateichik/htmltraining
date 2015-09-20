@@ -1,0 +1,31 @@
+@import "colors.less";
+
+@main-play-width : 10%;
+
+.videoplayer-controls{
+
+	display:block;
+	position:relative;
+	width:100%;
+	height:100%;
+
+	.videoplayer-controls__play-main{
+		position:absolute;
+		top:50% - @main-play-width/2;
+		left:50% - @main-play-width/2;
+		width:@main-play-width;
+	}
+
+	@extended-controls-width : 80%;
+
+	.videoplayer-controls__extended-controls-container{
+		position:absolute;
+		bottom:4%;
+		left: (100% - @extended-controls-width)/2;
+		display:block;
+		width: @extended-controls-width;
+		margin:0 auto;
+	}
+
+	
+}

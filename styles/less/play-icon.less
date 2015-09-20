@@ -1,0 +1,34 @@
+@import "colors.less";
+
+@icon-width: 50%;
+@icon-height: 100%;
+@icon-color: white;
+
+.play-icon{
+	cursor:pointer;
+}
+
+.play-icon.play-icon--play{
+	padding-top: @icon-height/2;
+	padding-left: @icon-width;
+	/* Second division is because triangle occupy only half of its container */
+	margin-left: 50% - @icon-width/4; 
+	overflow:hidden;
+}
+
+/* triangle */
+.play-icon.play-icon--play:after {
+	content:'';
+	display:block;
+	margin-top:-500px;
+	margin-left: -500px;
+
+	border-top:500px solid transparent;
+	border-bottom: 500px solid transparent;
+	border-left: 500px solid @icon-color;
+}
+
+/* two rectangles */
+.play-icon.play-icon--pause{
+	margin-left:100% - @icon-width/2;
+}

@@ -1,0 +1,29 @@
+@callout-width: 18%;
+@callout-outstand-left: 14%;
+@callout-outstand-top: 7%;
+
+
+.details-image{
+	display:inline-block;
+	box-sizing:border-box;
+	padding: @callout-outstand-top 33px 53px 33px;
+	position:relative;
+
+	.details-image__image{
+		float:left;
+		max-width:100%;
+		position: relative;
+		z-index: 1;
+	}
+
+	.details-image__callout{
+		float:left;
+
+		/* Should be depending on callout radius */
+		width: @callout-width;
+		margin-right: -@callout-outstand-left;
+		margin-top: -@callout-outstand-top;
+		position:relative;
+		z-index:2;
+	}
+}

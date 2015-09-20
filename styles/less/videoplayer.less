@@ -1,0 +1,49 @@
+@import "colors.less";
+
+.videoplayer{
+	position:relative;
+	display:inline-block;
+	
+	
+
+	.videoplayer__video
+	{
+		position:relative;
+		max-width:100%;
+		z-index:1;
+	}
+
+	/* colorization layer */
+	.videoplayer__video::after{
+		content:'';
+		position:absolute;
+		width:100%;
+		height:100%;
+		top:0;
+		left:0;
+		z-index:2;
+
+		background-color: @image-colorization;
+		opacity:0.3;
+	}
+
+	
+		
+
+	.videoplayer__controls
+	{
+		position:absolute;
+		width:100%;
+		height:100%;
+		top:0;
+		left:0;
+		z-index:3;	
+	}
+
+}
+
+
+.videoplayer--has-shadow{
+	box-shadow: 0 0 10px 5px darkgray;
+}
+

@@ -1,0 +1,23 @@
+.clear-fix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.limited-width-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.menu {
+  width: 100%;
+  display: table;
+  list-style: none;
+  background: #c18000;
+}
+.menu .menu__item {
+  display: table-cell;
+}

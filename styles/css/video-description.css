@@ -1,0 +1,15 @@
+.video-description {
+  background: #ec9e03;
+  height: 100%;
+  display: inline-block;
+  width: 100%;
+}
+.video-description .video-description__description {
+  padding: 17px 19px 18px 24px;
+  color: white;
+  line-height: 1.2em;
+  font-family: 'SegoeWP', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.75em;
+}

@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/asap-regular/Asap-Regular.otf');
+}
+@font-face {
+  font-family: 'LucidaSans';
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/lucida-sans/lucida-sans.ttf');
+}
+@font-face {
+  font-family: 'LucidaSans';
+  font-style: italic;
+  font-weight: normal;
+  src: url('fonts/lucida-sans-italic/LucidaSans-Italic.ttf');
+}
+@font-face {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/open-sans/OpenSans-Regular.ttf');
+}
+@font-face {
+  font-family: 'PtSans';
+  font-style: normal;
+  font-weight: bold;
+  src: url('fonts/ptsans-narrowbold/PTN77F.ttf');
+}
+@font-face {
+  font-family: 'PtSans';
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/ptsans-regular/PTS55F.ttf');
+}
+@font-face {
+  font-family: 'SegoeUI';
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/segoe-ui/SegoeUIRegular.woff');
+}
+@font-face {
+  font-family: 'SegoeWP';
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/segoe-wp/SegoeWP.ttf');
+}

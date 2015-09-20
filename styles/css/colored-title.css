@@ -1,0 +1,9 @@
+.colored-title {
+  font-family: 'Asap';
+  color: white;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+.colored-title:first-line {
+  color: #f5c506;
+}

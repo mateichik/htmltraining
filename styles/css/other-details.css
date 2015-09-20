@@ -1,0 +1,33 @@
+.other-details {
+  display: inline-block;
+}
+.other-details:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.other-details .other-details__image {
+  float: left;
+}
+.other-details .other-details__list {
+  display: none;
+}
+@media (min-width: 1200px) {
+  .other-details .other-details__list {
+    color: #a9a9a7;
+    float: left;
+    display: block;
+    font-family: 'PtSans';
+    font-size: 1.5em;
+  }
+  .other-details .other-details__detail {
+    text-align: left;
+    padding: 0 0 25px 0;
+  }
+  .other-details .other-details__detail:before {
+    content: '•';
+    color: #f5c506;
+    padding-right: 21px;
+    font-size: 2em;
+  }
+}

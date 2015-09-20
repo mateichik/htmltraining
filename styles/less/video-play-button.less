@@ -1,0 +1,33 @@
+@import "colors.less";
+
+@icon-width: 60%;
+
+/* button background */
+.video-play-button:before{
+		display:block;
+		
+		background:@light;
+		content:'';
+		padding-bottom:100%;
+		cursor:pointer;
+}
+
+
+.video-play-button.video-play-button--main:before{
+	border-radius:50%;
+}
+
+.video-play-button{
+	opacity:0.72;
+	width:100%;
+	position:relative;
+
+	.video-play-button__icon{
+		position:absolute;
+		top:50% - @icon-width/2;
+		left:50% - @icon-width/2;
+		width:@icon-width;
+	}
+
+}
+

@@ -1,0 +1,11 @@
+.extended-video-controls {
+  width: 100%;
+}
+.extended-video-controls .extended-video-controls__play-auxiliry {
+  float: left;
+  width: 5%;
+}
+.extended-video-controls .extended-video-controls__progress {
+  float: left;
+  width: 95%;
+}

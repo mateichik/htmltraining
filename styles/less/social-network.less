@@ -1,0 +1,43 @@
+@import "screen-sizes.less";
+@import "colors.less";
+
+.social-network{
+	
+	
+	
+	
+	
+
+	
+
+	.social-network__logo{
+		color:@middle-shadow;
+		font-size:10em;
+	}
+
+	.social-network__counter{
+		color: white;
+		display:none;
+	}
+
+	.social-network__container{
+		padding:36px 85px;
+		background-color: @light;
+		text-align: center;
+		cursor:pointer;
+	}
+
+	@media (min-width:@large-min){
+
+		display:inline-block;
+		width:100%;
+		box-sizing:border-box;
+		height:100%;
+		padding:15px;
+
+		.social-network__container{
+			background-color:@middle;
+		}
+		
+	}
+}

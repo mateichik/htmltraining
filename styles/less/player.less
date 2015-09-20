@@ -1,0 +1,34 @@
+@import "screen-sizes.less";
+@import "utilities.less";
+
+.player{
+	text-align:center;
+	position:relative;
+	z-index:1;
+
+	.player__video{
+
+	}
+
+	.player__text{
+		display:none;
+	}
+
+	@media (min-width: @large-min){
+
+		display:table;
+
+		.player__text{
+			display:table-cell;
+			width:50%;
+			vertical-align:middle;
+		}
+
+		.player__video{
+			vertical-align:middle;
+			display:table-cell;
+			width:50%;
+		}
+	}
+
+}

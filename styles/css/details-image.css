@@ -1,0 +1,21 @@
+.details-image {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 7% 33px 53px 33px;
+  position: relative;
+}
+.details-image .details-image__image {
+  float: left;
+  max-width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.details-image .details-image__callout {
+  float: left;
+  /* Should be depending on callout radius */
+  width: 18%;
+  margin-right: -14%;
+  margin-top: -7%;
+  position: relative;
+  z-index: 2;
+}

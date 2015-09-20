@@ -1,0 +1,19 @@
+.menu-item {
+  background: #f5c506;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  padding: 17px 18px;
+  white-space: nowrap;
+}
+.menu-item .menu-item__icon {
+  color: #c18000;
+  font-size: 1.8em;
+}
+.menu-item .menu-item__description {
+  font-family: SegoeWP, sans-serif;
+  font-style: normal;
+  color: #c18000;
+  text-transform: uppercase;
+  font-size: 1.2em;
+}

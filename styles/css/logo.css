@@ -1,0 +1,25 @@
+.logo {
+  color: white;
+  cursor: pointer;
+  margin: 0 auto;
+}
+.logo .logo__logo-image {
+  vertical-align: middle;
+  max-width: 100%;
+}
+.logo .logo__logo-main-text {
+  font-family: 'LucidaSans', sans-serif;
+  font-style: italic;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0 black;
+  vertical-align: middle;
+  font-size: 1.2em;
+}
+.logo .logo__logo-motto {
+  display: none;
+}
+@media (min-width: 1200px) {
+  .logo .logo_logo-motto {
+    display: block;
+  }
+}

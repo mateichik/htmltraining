@@ -1,0 +1,48 @@
+@import "screen-sizes.less";
+@import "colors.less";
+
+.other-details{
+
+	display:inline-block;
+
+	&:after{
+		content:'';
+		display:table;
+		clear:both;
+	}
+
+	.other-details__image{
+	  	float:left;
+	 }
+
+	
+
+	.other-details__list{
+	  	display:none;
+	}
+
+	@media (min-width: @large-min){
+		
+		
+		.other-details__list{
+			color: @font-gray;
+			float:left;
+			display:block;
+			font-family: 'PtSans';
+			font-size:1.5em;
+			
+		}
+
+		.other-details__detail{
+			text-align:left;
+			padding:0 0 25px 0;
+		}
+
+		.other-details__detail:before{
+			content:'•';
+			color:@light;
+			padding-right:21px;
+			font-size:2em;
+		}
+	}
+}

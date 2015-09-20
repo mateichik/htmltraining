@@ -1,0 +1,14 @@
+.clear-fix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.limited-width-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}

@@ -1,0 +1,25 @@
+.header {
+  background: url(../../images/header-background.png);
+  background-size: cover;
+}
+.header .header__logo {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  text-align: center;
+}
+.header .header__menu {
+  display: table-cell;
+  vertical-align: middle;
+}
+.header .header__controls {
+  background: linear-gradient(to top right, #444444, #616161);
+  display: table;
+  position: relative;
+  z-index: 2;
+}
+@media (min-width: 1200px) {
+  .header .header__controls {
+    background: none;
+  }
+}
