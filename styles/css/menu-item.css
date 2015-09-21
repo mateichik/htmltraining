@@ -17,3 +17,8 @@
   text-transform: uppercase;
   font-size: 1.2em;
 }
+@media (min-width: 980px) {
+  .menu-item {
+    padding: 5px 17px;
+  }
+}

@@ -21,13 +21,20 @@
 	  	display:none;
 	}
 
-	@media (min-width: @large-min){
+	@media (min-width: @normal-min){
 		
-		
+		display:table;
+
+		.other-details__image{
+	  		float:none;
+	  		display:table-cell;
+	  		vertical-align:top;
+	 	}
+
 		.other-details__list{
 			color: @font-gray;
-			float:left;
-			display:block;
+			display:table-cell;
+			vertical-align:top;
 			font-family: 'PtSans';
 			font-size:1.5em;
 			

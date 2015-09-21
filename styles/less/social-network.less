@@ -2,13 +2,8 @@
 @import "colors.less";
 
 .social-network{
-	
-	
-	
-	
-	
 
-	
+	position:relative;
 
 	.social-network__logo{
 		color:@middle-shadow;
@@ -16,7 +11,12 @@
 	}
 
 	.social-network__counter{
-		color: white;
+
+
+		right:17px;
+		top:15px;
+		position:absolute;
+
 		display:none;
 	}
 
@@ -27,17 +27,28 @@
 		cursor:pointer;
 	}
 
-	@media (min-width:@large-min){
+	.social-network__subscribe{
+		position:absolute;
+		right:10px;
+		bottom:10px;
+	}
+
+	@media (min-width:@normal-min){
 
 		display:inline-block;
 		width:100%;
 		box-sizing:border-box;
 		height:100%;
-		padding:15px;
 
 		.social-network__container{
 			background-color:@middle;
 		}
+
+		.social-network__counter{
+			display:inline-block;
+		}
+
+
 		
 	}
 }

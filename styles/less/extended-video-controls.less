@@ -1,6 +1,7 @@
 .extended-video-controls{
 	width:100%;
 	@play-auxiliry-width: 5%;
+	@speakers-width: 5%;
 
 	.extended-video-controls__play-auxiliry{
 		float:left;
@@ -9,6 +10,11 @@
 
 	.extended-video-controls__progress{
 		float:left;
-		width:100% - @play-auxiliry-width;
+		width:100% - @play-auxiliry-width - @speakers-width;
+	}
+
+	.extended-video-controls__speakers{
+		float:left;
+		width:@speakers-width;
 	}
 }

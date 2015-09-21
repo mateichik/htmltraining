@@ -3,6 +3,7 @@
   height: 100%;
   display: inline-block;
   width: 100%;
+  position: relative;
 }
 .video-description .video-description__description {
   padding: 17px 19px 18px 24px;
@@ -12,4 +13,9 @@
   font-weight: normal;
   font-style: normal;
   font-size: 1.75em;
+}
+.video-description .video-description__subscribe {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
 }

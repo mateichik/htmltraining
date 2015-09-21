@@ -1,0 +1,6 @@
+.subscribe-button:after {
+  content: '+';
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+}

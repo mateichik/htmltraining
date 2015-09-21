@@ -2,24 +2,28 @@
   color: white;
   cursor: pointer;
   margin: 0 auto;
+  display: table;
 }
 .logo .logo__logo-image {
+  display: table-cell;
+}
+.logo .logo__logo-text {
+  display: table-cell;
   vertical-align: middle;
-  max-width: 100%;
 }
 .logo .logo__logo-main-text {
-  font-family: 'LucidaSans', sans-serif;
-  font-style: italic;
-  text-transform: uppercase;
-  text-shadow: 1px 1px 0 black;
-  vertical-align: middle;
-  font-size: 1.2em;
+  display: inline-block;
+  vertical-align: bottom;
 }
 .logo .logo__logo-motto {
   display: none;
 }
-@media (min-width: 1200px) {
-  .logo .logo_logo-motto {
-    display: block;
+@media (min-width: 980px) {
+  .logo.logo--detailed {
+    margin: 0;
+  }
+  .logo.logo--detailed .logo__logo-motto {
+    display: inline-block;
+    vertical-align: bottom;
   }
 }

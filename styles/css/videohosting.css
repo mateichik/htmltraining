@@ -12,3 +12,11 @@
   display: table-cell;
   width: 50%;
 }
+@media (min-width: 980px) {
+  .videohosting .videohosting__description {
+    padding: 0;
+  }
+  .videohosting .videohosting__video {
+    padding: 0;
+  }
+}

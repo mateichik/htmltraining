@@ -6,7 +6,6 @@
   display: table-cell;
   vertical-align: middle;
   width: 100%;
-  text-align: center;
 }
 .header .header__menu {
   display: table-cell;
@@ -18,8 +17,12 @@
   position: relative;
   z-index: 2;
 }
-@media (min-width: 1200px) {
+@media (min-width: 980px) {
+  .header {
+    padding-bottom: 113px;
+  }
   .header .header__controls {
     background: none;
+    padding: 50px 0 54px 0;
   }
 }

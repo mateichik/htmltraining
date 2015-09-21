@@ -7,5 +7,9 @@
 }
 .extended-video-controls .extended-video-controls__progress {
   float: left;
-  width: 95%;
+  width: 90%;
+}
+.extended-video-controls .extended-video-controls__speakers {
+  float: left;
+  width: 5%;
 }

@@ -1,4 +1,5 @@
 @import "colors.less";
+@import "screen-sizes.less";
 
 .videohosting{
 	display:table;
@@ -16,6 +17,17 @@
 		padding:15px 9px 15px 11px;
 		display:table-cell;
 		width:50%;
+	}
+
+	@media (min-width:@normal-min){
+
+		.videohosting__description{
+			padding:0;
+		}
+
+		.videohosting__video{
+			padding:0;
+		}
 	}
 
 }

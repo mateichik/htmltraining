@@ -7,12 +7,11 @@
   background: url(../../images/header-background.png); 
   background-size: cover;
 
-  
+
   .header__logo{
   	display:table-cell;
   	vertical-align:middle;
   	width:100%;
-  	text-align:center;
   }
 
   .header__menu {
@@ -29,9 +28,13 @@
 
   }
 
-  @media (min-width: @large-min){
+  @media (min-width: @normal-min){
+
+    padding-bottom:113px;
+
     .header__controls{
       background:none;
+      padding:50px 0 54px 0;
     }
   }
 

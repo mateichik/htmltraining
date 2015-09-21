@@ -1,4 +1,5 @@
 @import "colors.less";
+@import "screen-sizes.less";
 
 .menu-item{
   background: @light;
@@ -19,6 +20,10 @@
     color: @middle-shadow;
     text-transform: uppercase;
     font-size:1.2em;
+  }
+
+  @media(min-width:@normal-min){
+    padding:5px 17px;
   }
 
 }

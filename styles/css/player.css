@@ -20,18 +20,18 @@
 .player .player__text {
   display: none;
 }
-@media (min-width: 1200px) {
+@media (min-width: 980px) {
   .player {
     display: table;
   }
   .player .player__text {
     display: table-cell;
-    width: 50%;
+    width: 45%;
     vertical-align: middle;
   }
   .player .player__video {
     vertical-align: middle;
     display: table-cell;
-    width: 50%;
+    width: 55%;
   }
 }

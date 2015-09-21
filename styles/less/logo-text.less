@@ -1,0 +1,21 @@
+@import "screen-sizes.less";
+
+.logo-text{
+
+	font-family: 'LucidaSans', sans-serif;
+    font-style:italic;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 black;
+    vertical-align:middle;
+    font-size:1.2em;
+
+    @media (min-width:@normal-min){
+
+    	font-size:1.8em;
+
+    	&.logo-text--detailed{
+    		font-size:2.6em;
+    	}
+		
+    }
+}

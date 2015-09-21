@@ -1,6 +1,8 @@
 @import "utilities.less";
 @import "colors.less";
+@import "screen-sizes.less";
 
+@shadow-size: 2px;
 
 .menu{
   width:100%;
@@ -10,5 +12,9 @@
 
   .menu__item{
   	display:table-cell;
+  }
+
+  @media (min-width:@normal-min){
+  	 box-shadow: -(2*@shadow-size) -(2*@shadow-size) 0 @shadow-size fade(@light, 20%), -(4*@shadow-size) -(4*@shadow-size) 0 @shadow-size fade(@light, 20%);
   }
 }

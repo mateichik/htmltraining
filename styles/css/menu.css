@@ -21,3 +21,8 @@
 .menu .menu__item {
   display: table-cell;
 }
+@media (min-width: 980px) {
+  .menu {
+    box-shadow: -4px -4px 0 2px rgba(245, 197, 6, 0.2), -8px -8px 0 2px rgba(245, 197, 6, 0.2);
+  }
+}

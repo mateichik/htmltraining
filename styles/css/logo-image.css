@@ -1,0 +1,9 @@
+.logo-image {
+  max-width: 40px;
+  vertical-align: middle;
+}
+@media (min-width: 980px) {
+  .logo-image.logo-image--detailed {
+    max-width: 83px;
+  }
+}

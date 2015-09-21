@@ -13,8 +13,8 @@
 .videoplayer-controls .videoplayer-controls__extended-controls-container {
   position: absolute;
   bottom: 4%;
-  left: 10%;
+  left: 5%;
   display: block;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }

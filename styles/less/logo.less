@@ -4,28 +4,39 @@
   color:white;
   cursor:pointer;
   margin:0 auto;
+  display:table;
 
   .logo__logo-image{
-    vertical-align:middle;
-  	max-width:100%;
+    display:table-cell;
   }
   
-  .logo__logo-main-text{
-    font-family: 'LucidaSans', sans-serif;
-    font-style:italic;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 0 black;
+  .logo__logo-text{
+    display:table-cell;
     vertical-align:middle;
-    font-size:1.2em;
+  }
+
+  .logo__logo-main-text{
+    display:inline-block;
+    vertical-align:bottom;
   }
 
   .logo__logo-motto{
     display:none;
   }
+  
 
-  @media(min-width:@large-min){
-    .logo_logo-motto{
-      display:block;
+
+  @media (min-width:@normal-min){
+    &.logo--detailed{
+      margin:0;
+
+      .logo__logo-motto{
+        display:inline-block;
+        vertical-align: bottom;
+      }
     }
+    
   }
+
+  
 }

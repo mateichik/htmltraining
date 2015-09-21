@@ -12,11 +12,19 @@
 .other-details .other-details__list {
   display: none;
 }
-@media (min-width: 1200px) {
+@media (min-width: 980px) {
+  .other-details {
+    display: table;
+  }
+  .other-details .other-details__image {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+  }
   .other-details .other-details__list {
     color: #a9a9a7;
-    float: left;
-    display: block;
+    display: table-cell;
+    vertical-align: top;
     font-family: 'PtSans';
     font-size: 1.5em;
   }
